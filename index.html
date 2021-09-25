@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatPhotoApp</title>
+</head>
+    <body>
+        <h2>CatPhotoApp</h2>
+            <main>
+                <h3>Cat photos</h3>
+                <!--TODO: add link to pic --> 
+                <p>Click here to view more <a href="#" target="_blank">Cat photos </a></p>
+            
+                <a href="#" target="_blank"><img src="http://bit.ly/fcc-relaxing-cat" alt="Relaxing Cat"></a>
+                <h3>Cat list</h3>
+                <div class="lists">
+                    <p>Things cats <em> love</em></p>
+                    <ul>
+                        <li>cat nip</li>
+                        <li>laser pointers</li>
+                        <li>lasange</li>
+                    </ul>
+                    <img src="lasange.jpg" alt="lasange">
+                    <p>things cars <strong> hate:</strong></p>
+                    <ol>
+                        <li>Flea treatment</li>
+                        <li>thunder</li>
+                        <li>other charset</li>
+                    </ol>
+                </div>
+                <img src="cats.jpg" alt="cats">
+                <form action="/submit-cat-photo"></form>
+                    <label for="indoor"><input id="indoor" type="radio" name="Indoor-outdoor" checked> Indoor </label><br>
+                    <label for="outdoor"><input id="outdoor" type="radio" name="Indoor-outdoor" > Outdoor </label><br>
+
+                    <label for="loving"><input type="checkbox" id="loving" name="personality" checked> Loving </label> <br>
+                    <label for="lazy"><input type="checkbox" id="loving" name="personality"> Lazy </label> <br>
+                    <label for="energetic"><input type="checkbox" id="loving" name="personality"> Energetic </label> <br>
+                    <input type="text" placeholder="cat photo URL" required><br>
+                    <button type="submit">Submit</button>
+            </main>
+            <footer>
+                <p><small> No Copyright - <a href="https://freecodecamp.org" target="_blank">freecodecamp.org</a></p></small>
+            </footer>
+    </body>
+</html>
